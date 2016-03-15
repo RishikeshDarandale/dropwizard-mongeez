@@ -18,9 +18,9 @@ repositories {
 }
 
 dependencies {
-    compile "io.dropwizard:dropwizard-core:0.7.1"
-    compile "io.dropwizard:dropwizard-db:0.7.1"
-    compile "com.commercehub.dropwizard:dropwizard-mongo:2.0.0"
+    compile "io.dropwizard:dropwizard-core:${dropwizardVersion}"
+    compile "io.dropwizard:dropwizard-db:${dropwizardVersion}"
+    compile "com.commercehub.dropwizard:dropwizard-mongo:3.0.0"
     compile "org.mongeez:mongeez:0.9.4"
     testCompile "org.spockframework:spock-core:0.7-groovy-2.0"
 }
